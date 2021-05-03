@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: rgb(228, 224, 224);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.main-content {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.news {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px 10px #d8d8d8;
+}
+
+.news-title {
+  font-weight: 600;
+  color: black;
+}
+
+.news-desc {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: rgb(43, 43, 43);
+}
+
+.news a {
+  text-decoration: none;
+}
